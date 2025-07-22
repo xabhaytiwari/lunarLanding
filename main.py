@@ -25,10 +25,12 @@ model = PPO.load("ppo-LunarLander-v3", env = eval_env)
 
 mean_reward, std_reward = evaluate_policy(model, model.get_env(), n_eval_episodes=10)
 
+print(f"mean_reward={mean_reward:.2f} +/- {std_reward}")
+
 # Here we go
-vec_env = model.get_env()
-obs = vec_env.reset()
-for i in range(1000):
-    action, _states = model.predict(obs, deterministic=True)
-    obs, rewards, dones, info = vec_env.step(action)
-    vec_env.render("human")
+# vec_env = model.get_env()
+# obs = vec_env.reset()
+# for i in range(1000):
+#     action, _states = model.predict(obs, deterministic=True)
+#     obs, rewards, dones, info = vec_env.step(action)
+#     vec_env.render("human")
