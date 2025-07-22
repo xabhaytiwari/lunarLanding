@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+*.egg
+*.whl
+
+# Virtual environment
+venv/
+env/
+.env/
+*.venv/
+.direnv/
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+*.sublime-project
+*.sublime-workspace
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Logs and temporary files
+*.log
+tmp/
+.ipynb_checkpoints/
+
+# Database files
+*.sqlite3
+*.db
+
+# Configuration files (if sensitive or environment-specific)
+# Example: local_settings.py if it contains sensitive info
+# local_settings.py
+
+# Data files (if generated or large and not meant for version control)
+# Example: data/
+# data/
+
+# IPython Notebooks
+.ipynb_checkpoints
+
+# pytest cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+
+# Sphinx documentation
+docs/_build/
