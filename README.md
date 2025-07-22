@@ -17,14 +17,15 @@ This script requires Python 3.8+ and the libraries listed in the requirements.tx
 ### **Installation**
 
 1. **Clone the repository:**  
-   git clone https://github.com/xabhaytiwari/lunarLanding.git/
+   git clone https://github.com/xabhaytiwari/lunarLanding.git
+   
    cd lunarLanding
 
-2. **Create a virtual environment (recommended):**  
+3. **Create a virtual environment (recommended):**  
    python \-m venv venv  
    source venv/bin/activate  \# On Windows use \`venv\\Scripts\\activate\`
 
-3. Install the required packages:  
+4. Install the required packages:  
    The requirements.txt file in the repository contains all the necessary dependencies.  
    pip install \-r requirements.txt
 
