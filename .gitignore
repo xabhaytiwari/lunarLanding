@@ -13,6 +13,7 @@ dist/
 eggs/
 *.egg
 *.whl
+*.zip
 
 # Virtual environment
 venv/
