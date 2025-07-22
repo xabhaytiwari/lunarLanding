@@ -14,7 +14,7 @@ env = make_vec_env('LunarLander-v3', n_envs=16)
 # MLpPolicy is multiplayer perceptron, as we have got vectorised input
 model = PPO('MlpPolicy', env, n_steps=1024, batch_size=64, n_epochs=4, gamma=0.999, gae_lambda=0.98, ent_coef=0.01, verbose=1)
 
-#Train it for 10,000 steps (AMD Laptop!)
+#Train it for 1,000,000 steps (AMD Laptop!)
 model.learn(total_timesteps=int(1000000))
 model.save("ppo-LunarLander-v3")
 del model 
@@ -25,7 +25,8 @@ model = PPO.load("ppo-LunarLander-v3", env = eval_env)
 
 mean_reward, std_reward = evaluate_policy(model, model.get_env(), n_eval_episodes=10)
 
-print(f"mean_reward={mean_reward:.2f} +/- {std_reward}")
+print(f"mean_reward = {mean_reward:.2f} +/- {std_reward}")
+# mean_reward = 263.10 +/- 22.471677729110326
 
 # Here we go
 # vec_env = model.get_env()
