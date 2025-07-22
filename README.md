@@ -17,7 +17,7 @@ This script requires Python 3.8+ and the libraries listed in the requirements.tx
 ### **Installation**
 
 1. **Clone the repository:**  
-   git clone \[https://github.com/xabhaytiwari/lunarLanding.git\](https://github.com/xabhaytiwari/lunarLanding.git)  
+   git clone \[https://github.com/xabhaytiwari/lunarLanding.git\]
    cd lunarLanding
 
 2. **Create a virtual environment (recommended):**  
