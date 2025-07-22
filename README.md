@@ -39,7 +39,7 @@ This will perform the following steps:
 
 1. Create and vectorize the LunarLander-v3 environment.  
 2. Instantiate the PPO agent.  
-3. Train the agent for 10,000 timesteps.  
+3. Train the agent for 1,000,000 timesteps.  
 4. Save the trained model to ppo-LunarLander-v3.zip.  
 5. Evaluate the trained model's performance.  
 6. Render the agent's performance in the environment for 1000 steps.
