@@ -59,7 +59,7 @@ The script is divided into several key parts:
    model.learn(total\_timesteps=int(10000))  
    model.save("ppo-LunarLander-v3")
 
-   The agent is trained for a total of 10,000 timesteps. While this is a relatively short training duration, it's sufficient to see initial learning. The trained model is then saved.  
+   The agent is trained for a total of 1,000,000 timesteps. While this is a relatively short training duration, it's sufficient to see initial learning. The trained model is then saved.  
 4. **Evaluation**:  
    eval\_env \= Monitor(gym.make("LunarLander-v3", render\_mode="rgb\_array"))  
    model \= PPO.load("ppo-LunarLander-v3", env \= eval\_env)  
