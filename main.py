@@ -15,7 +15,7 @@ env = make_vec_env('LunarLander-v3', n_envs=16)
 model = PPO('MlpPolicy', env, n_steps=1024, batch_size=64, n_epochs=4, gamma=0.999, gae_lambda=0.98, ent_coef=0.01, verbose=1)
 
 #Train it for 10,000 steps (AMD Laptop!)
-model.learn(total_timesteps=int(10000))
+model.learn(total_timesteps=int(1000000))
 model.save("ppo-LunarLander-v3")
 del model 
 
