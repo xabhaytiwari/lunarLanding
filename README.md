@@ -33,7 +33,7 @@ This script requires Python 3.8+ and the libraries listed in the requirements.tx
 
 To run the script, simply execute the main Python file:
 
-python your\_script\_name.py
+python main.py
 
 This will perform the following steps:
 
